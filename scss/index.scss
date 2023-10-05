@@ -6,6 +6,10 @@
 @import 'blocks/header';
 @import 'blocks/nav';
 @import 'blocks/menu';
+@import 'blocks/hero';
+
+// Buttons
+@import 'blocks/buttons/buttonMain';
 
 body {
   color: $dark;
