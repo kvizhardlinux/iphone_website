@@ -4,6 +4,8 @@
 
 // Blocks
 @import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/menu';
 
 body {
   color: $dark;
@@ -21,4 +23,8 @@ a {
 
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.hidden {
+  display: none;
 }
