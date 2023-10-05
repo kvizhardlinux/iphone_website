@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'reset';
+@import 'vars';
+
+// Blocks
+
+
+body {
+  color: $dark;
+  background-color: $white;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: $gray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
