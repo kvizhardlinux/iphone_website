@@ -1,0 +1,22 @@
+// Button Main
+.buttonMain {
+  width: 300px;
+  height: 70px;
+  border-radius: 30px;
+
+  font-size: 20px;
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $purple;
+  transition: .3s ease;
+
+  &:hover {
+    background-color: $purpleLight;
+  }
+}

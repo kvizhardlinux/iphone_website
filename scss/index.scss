@@ -4,6 +4,12 @@
 
 // Blocks
 @import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/menu';
+@import 'blocks/hero';
+
+// Buttons
+@import 'blocks/buttons/buttonMain';
 
 body {
   color: $dark;
@@ -21,4 +27,24 @@ a {
 
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+// Scroll
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $gray;
+  border-radius: 12px;
 }
