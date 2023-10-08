@@ -7,6 +7,10 @@
 @import 'blocks/nav';
 @import 'blocks/menu';
 @import 'blocks/hero';
+@import 'blocks/new';
+@import 'blocks/choose';
+@import 'blocks/order';
+@import 'blocks/footer';
 
 // Buttons
 @import 'blocks/buttons/buttonMain';
@@ -32,6 +36,8 @@ a {
 .hidden {
   display: none;
 }
+
+
 
 // Scroll
 ::-webkit-scrollbar {
